@@ -5,7 +5,7 @@ We will update our code and data as soon as possible.
 
 ##  Used Datasets
 
-------
+
 ETT  (Electricity Transformer Temperature): This dataset records the load and temperature of power transformers at four time units.
 
 Traffic : The dataset contains hourly road occupancy data collected from sensors located on highways in the San Francisco Bay Area, spanning the period from 2015 to 2016.
@@ -15,7 +15,7 @@ Electricity : This dataset comprises hourly electricity consumption data from 32
 ILI : This dataset consists of weekly data on influenza illness patients, recorded by the U.S. Centers for Disease Control and Prevention from 2002 to 2021. These datasets are suitable for evaluating the performance of the models in various application domains.
 
 | Datasets    | Variants | Timesteps | Granularity |
-| ----------- | -------- | --------- | ----------- |
+| ----- | -- | --- | ----- |
 | ETTh1       | 7        | 17,420    | 1hour       |
 | ETTh2       | 7        | 17,420    | 1hour       |
 | ETTm1       | 7        | 69,680    | 5mins       |
@@ -25,7 +25,7 @@ ILI : This dataset consists of weekly data on influenza illness patients, record
 | ILI         | 7        | 966       | 1week       |
 
 ## Baselines
-------
+
 
 **LTSF-Linear**(AAAI 2023)
 
@@ -43,7 +43,7 @@ ILI : This dataset consists of weekly data on influenza illness patients, record
 
 ## CETRNet Architecture
 
-------
+
 
 ![CETRNet Architecture](./imgs/figure_1.pdf)
 
@@ -51,7 +51,7 @@ The overall architecture of CETRNet.(a) represents the complete Cycle Extraction
 
 ## Get started
 
-------
+
 
 ### Environment
 
@@ -248,7 +248,7 @@ nohup python3 -u run_longExp.py \
 
 
 ## Contact
-------
+
 If you have any problems, feel free to contact us.
 ```
 Hancheng Chen: hcchan@zju.edu.cn
@@ -258,7 +258,6 @@ Hancheng Chen: hcchan@zju.edu.cn
 
 ## Acknowledgements
 
-------
 
 We acknowledge and appreciate the contributions of the research community, and we extend our gratitude to the laboratories and authors for making their open-source code available.
 

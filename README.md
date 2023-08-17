@@ -43,15 +43,11 @@ ILI : This dataset consists of weekly data on influenza illness patients, record
 
 ## CETRNet Architecture
 
-
-
-![CETRNet Architecture](./imgs/figure_1.pdf)
+![CETRNet Architecture](./imgs/figure_1.png)
 
 The overall architecture of CETRNet.(a) represents the complete Cycle Extraction downsampling architecture, with the orange layer depicting the current layer. Each node cycles to capture temporal dependencies and generate a new node for the subsequent layer. (b) illustrates the sharing strategy, the method for exchanging information between nodes. The content within the dotted box outlines the four steps of this strategy, culminating in (c), which details the technical composition of the final step.
 
 ## Get started
-
-
 
 ### Environment
 

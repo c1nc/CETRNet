@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 from torch import optim
 
-import os
+import osgit
 import time
 
 import warnings

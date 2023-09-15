@@ -1,7 +1,10 @@
 # CETRNet
 The GitHub repository for the paper: "CETRNet: Time Series Forecasting with Cycle Extraction and Temporal Relations". 
 
-We will update our code and data as soon as possible.
+## Todo List
+
+- [ ] We will update our code and data as soon as possible.
+
 
 ##  Used Datasets
 

@@ -9,7 +9,6 @@ import torch
 import torch.nn as nn
 from torch import optim
 
-import osgit
 import time
 
 import warnings
@@ -24,13 +23,7 @@ class Exp_Main(Exp_Basic):
 
     def _build_model(self):
         model_dict = {
-            'Autoformer': Autoformer,
-            'Transformer': Transformer,
-            'Informer': Informer,
-            'DLinear': DLinear,
-            'NLinear': NLinear,
-            'Linear': Linear,
-            'CETRNet': CETRNet,
+            'CETRNet': CETRNet
         }
         model = model_dict[self.args.model].Model(self.args).float()
 

@@ -69,7 +69,7 @@ class Exp_Main(Exp_Basic):
                 # encoder - decoder
                 if self.args.use_amp:
                     with torch.cuda.amp.autocast():
-                        if 'Linear' in self.args.model:
+                        if 'Linear' or 'CETRNet' in self.args.model:
                             outputs = self.model(batch_x)
                         else:
                             if self.args.output_attention:
